@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    background-color: #FFF;
+    color: #FFF;
+}
+
+.table-title {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+    padding: 2rem 0;
+    color: #ffba08;   
+}
+
+.table-container{
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+}
+
+.table-container thead tr th{
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #1f2739;
+}
+
+.table-container tbody tr td {
+    font-size: 1rem;
+}
+
+.table-container thead tr th,
+.table-container tbody tr td{
+    padding: 2%;
+}
+
+.table-container tbody tr:nth-child(odd){
+    background-color: #050c36;
+}
+
+.table-container tbody tr:nth-child(even){
+    background-color: #090f2e;
+}
+.table-container tbody tr td:first-child{
+    color:#ffba08;
+}
+.table-container tbody tr td:hover{
+    background-color:#faa307;
+    color: #03071e;
+    font-weight: bold;
+    box-shadow: #e85d04 -1px 1px, #e85d04 -2px 2px, #e85d04 -3px 3px, #e85d04 -4px 4px,
+    #e85d04 -5px 5px, #e85d04 -6px 6px;
+    transform: translate3d(6px, -6px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: line;
+
+}
